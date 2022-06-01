@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 2px;
+    position:initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    box-sizing: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+body{
+    background-color: rgb(175, 169, 169);
+    background-image: url(images/horizon.jpg);
+    background-size: cover;
+}
+header{
+    background-color: #2B4A6F;
+}
+header img{
+    height: 2%;
+    width: 10%;
+}
+header a{
+    margin: 4px;
+    color: white;
+}
+header a:hover{
+    color: rgb(148, 144, 144);
+    text-transform: uppercase;
+}
+header div{
+    display: flex;
+    float:right;
+}
+div.nav{
+    background-color: #4B688B;
+}
+div.nav a{
+    color: white;
+    text-decoration: none;
+}
+div.nav a:hover{
+    font-weight: bold;
+    text-transform:uppercase;
+    color:yellowgreen;
+}
+.nav ul{
+    display: inline-flex;
+}
+
+.form{
+    height: 250px;
+    justify-content: center;
+    display:flex;
+    padding: 40px;
+    border-radius: 1%;
+    background-color: rgba(133, 122, 122, 0.678);
+}
+.form form p{
+    padding: 10px;
+}
+.form form label{
+    margin-left: 25px;
+}
+.form form .btn{
+    margin-left: 6%;
+}
+form button:hover{
+    background-color: green;
+    color:white;
+    border-radius: 10%;
+    transition: 200ms ease-in-out;
+}
+.rgstr a{
+    color: #02028f;
+}
+.rgstr a:hover{
+    color:lawngreen;
+}
+
+footer{
+    height: 150px;
+    display:flex;
+    justify-content: center;
+    background-color: #2b4a6fd0;
+}
+footer a{
+    text-decoration: none;
+    margin: 10px;
+}
+footer a svg:hover{
+    width: 24px;
+}
+
+footer a #Youtube:hover{
+    fill: rgba(255, 0, 0, 0.925);
+}
+footer a #Whatsapp:hover{
+    fill: rgb(2, 161, 2);
+}
+footer a #Facebook:hover{
+    fill: #02028f;
+}
+footer a #Telegram:hover{
+    fill:rgb(52, 143, 235);
+}
+footer a #Github:hover{
+    fill: rgb(107, 5, 202);
+}

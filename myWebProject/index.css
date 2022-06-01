@@ -10,7 +10,7 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
-    background-image: url(/Images/Wallpaper/blue.jpg);
+    background-image: url(/images/neonblack.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,7 +21,7 @@ html,body,h1,h2,h3,h4,h5,h6 {
 header{
     height: 10vh;
     width: 100%;
-    background-color: #116611c2;
+    background-color: #11661198;
     border-radius: 4px;
 }
 header img{
@@ -50,17 +50,14 @@ header div .pHome:hover{
 }
 
 
-
-
 /*Content section*/
 .container{
     max-height: 100%;
-    background-color: #88cc88c2;
+    background-color: #88cc882a;
 }
-
 .page-content{
     margin-top: 4px;
-    background-color: #4f804f98;
+    background-color: #4f804f1e;
 }
 
 /*Dropdown list*/
@@ -82,7 +79,7 @@ a.dropdownlist:hover{
 }
 a.itemlist{
       text-decoration: none;
-      color: #c9c5c5;
+      color: #f0ebeb;
 }
 a.itemlist:hover{
     text-transform: uppercase;
@@ -126,6 +123,8 @@ a.dropdownlist:hover{
 .dropdownlist >#sort{ 
     transform: rotate(90deg);
     transition: 200ms ease-in-out;
+    color: #0404af;
+    
 }
 a.navlist{
       text-decoration: none;
@@ -140,28 +139,42 @@ a.navlist:hover{
 }
 
 
+/*Middle content*/
+.middle{
+    background-color: #5599aa17;
+}
 
 /*More-content*/
 .more-content{
     display: flex;
     justify-content: center;
-    background-color: #55aa559c;
 }
 
 /*Bottom section*/
 .bottom-section{
     display: flex;
     position: relative;
-    background-color: #55aa559c;
+    background-color: #82ebb718;
+    border-radius: 0.5%;
 }
-
-
-
+.display-container img.author{ /*Author image*/
+    width: 80%;
+    border-radius: 6%;
+}
+.viii-left p>a{
+    color: #0606a0;
+}
+.viii-left p>a:hover{
+    color: #5e2729;
+}
+.viii-right{
+    background-color: rgba(147, 218, 147, 0.055);
+}
 
 /*Footer*/
 footer{
-    background-color: #88CC88;
-    height: 12vh;
+    background-color: #43633b88;
+    height: 14vh;
 }
 .Icons{
     text-align: center;
@@ -172,11 +185,12 @@ footer a{
     margin: 10px;
 }
 footer a svg:hover{
-    width: 24px;
+    transform: translate(0px,-8px);
+    transition: 150ms ease-in-out;
 }
 
 footer a #Youtube:hover{
-    fill: red;
+    fill: rgba(255, 0, 0, 0.925);
 }
 footer a #Whatsapp:hover{
     fill: rgb(2, 161, 2);
@@ -185,7 +199,7 @@ footer a #Facebook:hover{
     fill: #02028f;
 }
 footer a #Telegram:hover{
-    fill:dodgerblue;
+    fill:rgb(52, 143, 235);
 }
 footer a #Github:hover{
     fill: rgb(107, 5, 202);
