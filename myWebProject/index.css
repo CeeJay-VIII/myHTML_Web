@@ -10,7 +10,7 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
-    background-image: url(/images/neonblack.jpg);
+    background-image: url(/images/sunset.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -108,10 +108,10 @@ ul .opened>ul {
 .li{
     position:relative;
     float: left;
-    text-indent:4px
+    text-indent:5px
 }
 a.dropdownlist{
-    text-decoration: none;
+    text-decoration:none;
     color:#000077;
 }
 a.dropdownlist:hover{
@@ -141,7 +141,7 @@ a.navlist:hover{
 
 /*Middle content*/
 .middle{
-    background-color: #5599aa17;
+    background-color: #5599aa46;
 }
 
 /*More-content*/
@@ -154,7 +154,7 @@ a.navlist:hover{
 .bottom-section{
     display: flex;
     position: relative;
-    background-color: #82ebb718;
+    background-color: #82ebb700;
     border-radius: 0.5%;
 }
 .display-container img.author{ /*Author image*/
@@ -170,10 +170,17 @@ a.navlist:hover{
 .viii-right{
     background-color: rgba(147, 218, 147, 0.055);
 }
+/*External links*/
+.viii-left ul li a{
+    color: rgb(104, 4, 4);
+}
+.viii-left ul li a:hover{
+    color: rgb(12, 134, 165);
+}
 
 /*Footer*/
 footer{
-    background-color: #43633b88;
+    background-color: #556d4f88;
     height: 14vh;
 }
 .Icons{
